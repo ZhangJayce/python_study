@@ -61,6 +61,8 @@ def say1(age):
 say1(-1)
 #以上装饰器不通用
 
+
+#通用的装饰器
 def outer3(func):
     def inner(*args,**kwargs):
         #添加修改的功能
