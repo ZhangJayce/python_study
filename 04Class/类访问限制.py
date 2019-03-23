@@ -21,3 +21,9 @@ hanLai.eat()
 
 #hanLai.c = 100
 #print(hanLai.c)
+
+#类中的 __c 可以用_类名__c 访问
+
+print(hanLai._cat__c)
+
+#_c 约定这样的变量为私有变量，虽然可以直接访问
