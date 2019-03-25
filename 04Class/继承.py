@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 –*-
+
 class Person():
     def __init__(self,name):
         self.name = name
@@ -9,7 +11,8 @@ class Person():
 
 class Student(Person):
     def __init__(self,name):
-        super(Student,self).__init__(name)#使用super来初始化父类中的属性
+        super(Student,self).__init__(name)
+        #使用super来初始化父类中的属性
         Person.__init__(self,name)
 zhangjian = Student("zhangjian")
 hanlai = Student("hanlai")
